@@ -2,13 +2,35 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Blog- Damon Francisco</title>
+    <title>Send Email- Damon Francisco</title>
     <link rel='stylesheet' href='../styles.css'/>
+    <script defer src='../scripts/form-validate.js'></script>
   </head>
   <body>
       <div class="container">
-        <h2>Send email</h2>
-        <form>
+        <header class="email-header">
+          <h2>Send email</h2>
+        </header>
+        <form action='' method='post'>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="full_name">
+          </div>
+          <div>
+            <label for="name">Email address</label>
+            <input type="text" id="email" name="email_addr">
+          </div>
+          <div>
+            <label for="name">Subject</label>
+            <input type="text" id="subject" name="email_subj">
+          </div>
+          <div>
+            <label for="name">Message</label>
+            <textarea id="msg" name="message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send message</button>
+          </div>
         </form>
         <a href="mailto:damontfrancisco@yahoo.com">Alternatively, use your email client</a>
       </div>

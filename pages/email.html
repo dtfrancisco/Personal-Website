@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <title>Send Email- Damon Francisco</title>
     <link rel='stylesheet' href='../styles.css'/>
-    <script defer src='../scripts/form-validate.js'></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init('user_bhyXGszE0NB5CTu4J5mDs');
+      })();
+    </script>
+    <script defer type="text/javascript" src='../scripts/form-validate.js'></script>
   </head>
   <body>
       <div class="container">
         <header class="email-header">
           <h2>Send email</h2>
         </header>
-        <form action='' method='post'>
+        <form>
           <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="full_name">

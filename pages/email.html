@@ -4,12 +4,6 @@
     <meta charset="utf-8">
     <title>Send Email- Damon Francisco</title>
     <link rel='stylesheet' href='../styles.css'/>
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script type="text/javascript">
-      (function(){
-        emailjs.init('user_bhyXGszE0NB5CTu4J5mDs');
-      })();
-    </script>
     <script defer type="text/javascript" src='../scripts/form-validate.js'></script>
   </head>
   <body>
@@ -17,7 +11,7 @@
         <header class="email-header">
           <h2>Send email</h2>
         </header>
-        <form>
+        <form action="//formspree.io/damontfrancisco@yahoo.com" method="POST">
           <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="full_name">
@@ -37,6 +31,8 @@
           <div class="button">
             <button type="submit">Send message</button>
           </div>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="index.html" />
         </form>
         <a href="mailto:damontfrancisco@yahoo.com">Alternatively, use your email client</a>
       </div>

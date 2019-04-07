@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <title>Projects- Damon Francisco</title>
+    <link rel='stylesheet' href='../styles.css'/>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Projects</h1>
+      </header>
+      <section class="website">
+        <a href="https://github.com/dtfrancisco/dtfrancisco.github.io"><h2>Personal Website</h2></a>
+        <p>Technologies: <em>JavaScript</em>, <em>HTML</em>, <em>CSS</em></p>
+        <p class="project-text">I wrote the app with vanilla JavaScript, HTML, and CSS. It contains a <a href="../index.html">home page</a>, a <a href="projectshome.html">projects section (this page!)</a>, a <a href="blog.html">blog page</a>, and a contact me page which I'm still working on. </p>
+      </section>
+      <section class="langmatch">
+        <a href="https://github.com/dtfrancisco/Lang-Match"><h2>LangMatch</h2></a>
+        <p>Technologies: <em>Python</em>, <em>Flask</em>, <em>SQLAlchemy</em></p>
+        <p class="project-text">LangMatch is a Flask web app that is heavily inspired by Duolingo. Unlike Duolingo, the goal of this app is match language learners with other people learning the language, teachers of the language, or other native speakers who are willing to help. The goal of the app is to make language learning more collaborative and fun while giving users many different people to learn from.</p>
+        <p class="project-text">Currently, users can create accounts and can edit user settings and preferences. I'm currently working on the algorithm to match users with other users according to their preferences. After I get this feature done, I will work on styling the application probably with Bootstrap.</p>
+        <p class="project-text">I wrote the app in Flask, a backend micro web framework for Python. I also leveraged the Jinja2 templating engine which allows you to inherit HTML templates to reduce to code reuse and allows you to insert programming logic (similar to Python but not exactly the same) inside of the HTML. Finally, I used SQLAlchemy because I wanted to try out an ORM and also because it's possible to change what SQL technology you are using under the hood. I'm currently using SQLite but that could change as this app grows bigger and bigger.</p>
+      </section>
+      <section class="chefpal">
+        <h2>ChefPal</h2>
+        <p>Technologies: <em>React</em>, <em>Node</em>, <em>MySQL</em></p>
+        <p class="project-text">ChefPal is a web app built in JavaScript to manage product orders made by restaurant owners. Restaurant owners can register for an account, track their orders, and download a CSV. Its frontend is built in React and its backend in Node and Express. The backend uses a MySQL database. I worked with one other developer and one restaurant owner in this project. Due to the business potential of this project, the project is closed source.</p>
+        <p class="project-text">I worked on both the frontend and backend in this project. I created a form that allowed the user to add a new product to an already existing list of products. I used regular expressions to ensure only valid data could be added as a new product. I also added a MySQL database to the backend to store persistent information about products, orders, suppliers, and vendors (the end user).</p>
+      </section>
+      <section class="nextgen">
+        <a href="https://github.com/sbonefas/NextGenScoring"><h2>NextGen Scoring</h2></a>
+        <p>Technologies: <em>JavaScript</em>, <em>Python</em>, <em>Mocha</em>, <em>Selenium</em></p>
+        <p class="project-text">NextGenScoring is a JavaScript desktop app that uses Electron on the backend and Vue in the frontend. UW-Madison Athletic's Department uses a 1990s DOS application to keep track of scoring in basketball games. My Software Engineering group wanted to create a modern app that could be run on modern operating systems. We worked on this project for 3-4 months. We went through two iterations of the full software development life cycle (writing requirements, specifications, and design documents and coded and tested the application). At the end of the semester, we gave a slideshow presentation and demoed the app live to other Computer Science students and professors.</p>
+        <p class="project-text">I mostly worked on the testing team for this application. I initially started off doing frontend testing with Python and the Selenium framework. I later switched to backend testing and leveraged the Mocha test framework to do so. I also helped set up the Travis CI, so tests on the frontend and backend would be run whenever a commit to the repository was made.</p>
+      </section>
+      <section class="dogs">
+        <a href="https://github.com/dtfrancisco/Dog-Breeds"><h2>Dog Breeds</h2></a>
+        <p>Technologies: <em>JavaScript</em>, <em>HTML</em>, <em>CSS</em></p>
+        <p class="project-text">Dog Breeds is a frontend app created in vanilla JavaScript, HTML, and CSS. The goal of this app was to fetch a list of dog breeds from the Dog CEO API and use the MediaWiki API (Wikipedia) to combine information about the breeds from the MediaWiki API with a picture of the dog breed from the Dog CEO API. I learned how to make HTTP requests using this app and had a lot of difficulty getting data from one API to match with the other!</p>
+      </section>
+      <footer class='copyright'>
+          <p>&copy; 2019</p>
+      </footer>
+    </div>
+  </body>
+</html>

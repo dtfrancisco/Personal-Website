@@ -20,6 +20,7 @@ h1 {
 h2, h3, h4, h5, h6 {
     font-family: "Helvetica", sans-serif;
     font-weight: normal;
+    color: #3176de;
 }
 
 h2 {
@@ -34,6 +35,11 @@ header {
     margin-bottom: 1em;
 }
 
+img {
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
 .email-header {
     padding-bottom: 0;
 }
@@ -44,7 +50,8 @@ section {
 }
 
 footer {
-    margin-top: 8em; /* Push footer to bottom of the page */
+    margin-top: 1em; /* Push footer to bottom of the page */
+    margin-bottom: 1em;
 }
 
 .container {
@@ -107,4 +114,8 @@ label {
     display: inline-block;
     width: 100px;
     text-align: right;
+}
+
+.project-text, .about-me-text {
+    margin-top: 1em;
 }

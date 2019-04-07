@@ -116,6 +116,6 @@ label {
     text-align: right;
 }
 
-.project-text, .about-me-text {
+.project-text, .about-me-text, .blog-text {
     margin-top: 1em;
 }

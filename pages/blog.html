@@ -8,9 +8,16 @@
   <body>
     <div class="container">
       <header>
-        <h1>My Blog</h1>
+        <h1>Blog</h1>
       </header>
       <section>
+        <h2 id="flask">Why I like the Flask Framework</h2>
+        <p class="blog-text">I'm excited to be writing my first blog post on this website! Without further ado, here are a few reasons why I like the Flask framework!</p>
+        <ol>
+          <li class="blog-text">Flask is simple and iterative. With Flask, you do not need to reinvent the wheel for a surprising amount of functionality. For instance, there's a package that will handle logging in users and logging them out. There's also one for SQLAlchemy and one for Flask migrations. The Flask framework encourages an install as you go approach which makes it easy to build web apps right away.</li>
+          <li class="blog-text">No worrying about dependencies. From my experience, I find big JavaScript projects to be loaded with dependencies. Some projects have so many dependencies that you are worried if your project gets in a state where they break. With Flask, I've never once had this concern. Packages are very decoupled from each other even ones that seem like they should be (ex. flask-sqlalchemy and flask-migrate).</li>
+          <li class="blog-text">Template inheritance. One of the features of the Jinja2 templating engine is that HTML code can inherit other HTML code. There's also sub templates that allow you to easily reuse smaller snippets of HTML all throughout your HTML code. The unique approach of taking a simple object oriented programming concept and applying it to HTML goes a long way in reducing the amount of HTML code you have to rewrite.</li>
+        </ol>
       </section>
       <footer class='copyright'>
           <p>&copy; 2019</p>
